@@ -4,10 +4,11 @@
 
 The discussion related to the meeting can be found here: https://discord.com/channels/1476274756087976164/1523715154225660025/1523715154225660025
 
-When: Sunday, 12 th July 18:00 UTC
-Where: General Integral Discord channel
+- When: Sunday, 12 th July 18:00 UTC
+- Where: General Integral Discord channel
 
 ### Preparation
+
 Please read the CDS sections before the meeting:
 
 - [Chapter 7.1 in the white paper](https://lukors.github.io/integral-whitepaper/whitepaper/07-modules/07-1-cds/cds-01-overview.html)
