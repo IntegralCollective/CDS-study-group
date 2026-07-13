@@ -7,3 +7,5 @@ The discussion related to the meeting can be found here: https://discord.com/cha
 See the [contributing guide](https://github.com/IntegralCollective/CDS-study-group/blob/main/CONTRIBUTING.md)
 
 ## Meeting notes
+
+- [12.07.2026](https://github.com/IntegralCollective/CDS-study-group/blob/main/meetings/20260712.md)
