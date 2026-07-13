@@ -6,7 +6,7 @@ The synthesized outcome of the deliberation pipeline.
 
 ## Issue
 
-A decision to be resolved. It contains one or more [submissions](#submission)
+A decision to be resolved. It contains one or more [submissions](#submission).
 
 ## Participants
 
@@ -18,7 +18,7 @@ One possible solution path.
 
 ## Submission
 
-Any proposal, objection, evidence, comment, or system signal.
+Any proposal, objection, evidence, comment, or system signal. Submissions are part of an [issue](#issue).
 
 ## Votes and Objections
 
