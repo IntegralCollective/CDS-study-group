@@ -17,3 +17,7 @@ See the [contributing guide](https://github.com/IntegralCollective/CDS-study-gro
 ## Meeting notes
 
 - [12.07.2026](https://github.com/IntegralCollective/CDS-study-group/blob/main/meetings/20260712.md)
+
+## Miscelaneous
+
+- [Glossary](docs/glossary.md)
