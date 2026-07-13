@@ -1,6 +1,8 @@
 # CDS study group
 
-The discussion related to the meeting can be found here: https://discord.com/channels/1476274756087976164/1523715154225660025/1523715154225660025
+This is a self-organized, grassroots study group formed around [Integral](https://integralcollective.io/). The main purpose of this repository is to build and document common understanding of Integral's CDS sub-system.
+
+The discussion related to this initiative can be found here: https://discord.com/channels/1476274756087976164/1523715154225660025/1523715154225660025
 
 ## Contributing
 
