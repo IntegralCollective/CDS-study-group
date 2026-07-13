@@ -6,7 +6,7 @@ The synthesized outcome of the deliberation pipeline.
 
 ## Issue
 
-A decision to be resolved.
+A decision to be resolved. It contains one or more [submissions](#submission)
 
 ## Participants
 
