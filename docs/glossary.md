@@ -18,7 +18,7 @@ A person with identity, role context, and decision weight.
 
 ## Scenario
 
-A candidate solution path for an Issue.
+A candidate solution path for an Issue, automatically generated between modules 3 and 4).
 
 ## Submission
 
