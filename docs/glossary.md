@@ -10,7 +10,7 @@ A decision to be resolved. It contains one or more [submissions](#submission).
 
 ## Objection
 
-Principled resistance.
+Principled resistance. See also [vote](#vote).
 
 ## Participant
 
@@ -24,6 +24,10 @@ A candidate solution path for an Issue, automatically generated between modules 
 
 Any proposal, objection, evidence, comment, submitted by a [participant](#participant) or incoming from a system signal. Submissions are part of an [issue](#issue).
 
+## Syntegrity
+
+A structured communication protocol that distributes influence evenly, routes insight through designed rotation, and surfaces coherence that cannot be derived from argument trees or scoring algorithms.
+
 ## Vote
 
-Gradient preference signal.
+Gradient preference signal. See also [objection](#objection).
