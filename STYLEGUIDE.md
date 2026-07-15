@@ -4,7 +4,7 @@
 
 A term in the glossary should never be used to mean anything other than its meaning in the glossary. And if you're talking about something defined in the glossary, you should never use other words to describe it than the one in the glossary.
 
-If you mention a term from the glossary, always link to it. For example, from the `docs` folder, you can use a relative path:
+The first time a term from the glossary is mentioned on a page, it should link to the definition in the glossary. For example, from the `docs` folder, you can use a relative path:
 
 ```markdown
 [participant](../glossary.md#participant)
