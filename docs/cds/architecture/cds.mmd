@@ -1,0 +1,110 @@
+flowchart TB
+
+%% =========================================================
+%% fCDS v2 — Clean Mid-Level Pipeline Map
+%% =========================================================
+
+classDef module fill:#eaf3ff,stroke:#1d4f8f,stroke-width:1.6px,color:#0b1f3a;
+classDef artifact fill:#ffffff,stroke:#7aa7d9,stroke-width:1.2px,color:#0b1f3a;
+classDef guardrail fill:#f6f6f6,stroke:#8c8c8c,stroke-dasharray:4 3,color:#333;
+classDef held fill:#fff7df,stroke:#d99a00,stroke-width:1.2px,color:#2b2100;
+classDef later fill:#f5efff,stroke:#7b59c9,stroke-width:1.2px,color:#24143d;
+classDef public fill:#edf8f3,stroke:#24875c,stroke-width:1.2px,color:#092d1f;
+
+%% =========================================================
+%% MAIN TRANSFORMATION SPINE
+%% =========================================================
+
+M1["1. Module 1 — Intake<br/><br/><b>Function:</b> collect a structured problem report.<br/><b>Output:</b> Canonical Problem Record."]:::module
+
+M2["2. Module 2 — Framing<br/><br/><b>Function:</b> turn the problem into a contestable working map.<br/><b>Output:</b> Accepted Frame."]:::module
+
+M3A["3A. Module 3 — Context / Limitations / Readiness<br/><br/><b>Function:</b> gather context, record issue-wide limits, resolve/challenge/caveat material.<br/><b>Output:</b> Scenario Input Dossier."]:::module
+
+M3B["3B. Scenario Pathways<br/><br/><b>Function:</b> derive source-bounded response pathways from the dossier.<br/><b>Output:</b> Scenario Pathway Ledger and scenario slots."]:::module
+
+Cards["Scenario Cards<br/><br/><b>Function:</b> turn approved pathway slots into readable candidate scenario cards.<br/><b>Output:</b> Scenario Set."]:::artifact
+
+M3C["3C. Scenario Decomposition<br/><br/><b>Function:</b> break each scenario into what it would require to work.<br/><b>Output:</b> Scenario Requirement Set."]:::module
+
+M4["4. Scenario Constraints<br/><br/><b>Function:</b> review each scenario against known boundaries and scenario-specific constraints.<br/><b>Output:</b> Scenario Constraint Profile."]:::module
+
+M5["5. Deliberation<br/><br/><b>Function:</b> compare, support, object, revise, or combine scenario pathways.<br/><b>Output:</b> Deliberation Record Set."]:::module
+
+M6["6. Consensus<br/><br/><b>Function:</b> determine whether a proposal/pathway has enough support to prevail.<br/><b>Output:</b> Consensus Result."]:::module
+
+M7["7. Decision Recording<br/><br/><b>Function:</b> record the selected decision, rationale, caveats, participation, and source trail.<br/><b>Output:</b> Decision Record."]:::module
+
+M8["8. Dispatch<br/><br/><b>Function:</b> translate the decision into implementation tasks and follow-up tracking.<br/><b>Output:</b> Dispatch / Implementation Records."]:::module
+
+M1 --> M2 --> M3A --> M3B --> Cards --> M3C --> M4 --> M5 --> M6 --> M7 --> M8
+
+%% =========================================================
+%% COMPACT ARTIFACTS / TRANSFORMATION NOTES
+%% =========================================================
+
+A1["Canonical Problem Record<br/><br/>what / where / when<br/>affected parties<br/>observations<br/>prior attempts<br/>barriers<br/>improvement goal<br/>urgency"]:::artifact
+
+A2["Accepted Frame<br/><br/>core proposition<br/>change being considered<br/>in scope<br/>scope boundaries<br/>dependencies / limits<br/>prior attempts<br/>success measurements<br/>open decisions"]:::artifact
+
+A3["Scenario Input Dossier<br/><br/>accepted frame reference<br/>dossier-ready responses<br/>recorded limitations<br/>challenge status<br/>caveats<br/>unresolved items<br/>source rules"]:::artifact
+
+A4["Pathway Ledger<br/><br/>source bundle<br/>pathway slots<br/>baseline slot<br/>submitted seed slot, if any<br/>must include<br/>must not assume"]:::artifact
+
+A5["Scenario Requirement Set<br/><br/>materials<br/>labor<br/>cost<br/>time<br/>authority<br/>maintenance<br/>access / safety<br/>missing facts"]:::artifact
+
+A6["Constraint Profile<br/><br/>known boundaries applied<br/>scenario-specific constraints<br/>member-filed constraints<br/>empty categories available"]:::artifact
+
+A7["Decision Record<br/><br/>selected pathway<br/>rationale<br/>consensus result<br/>source trail<br/>caveats<br/>record timestamp"]:::artifact
+
+M1 -. creates .-> A1
+M2 -. creates .-> A2
+M3A -. creates .-> A3
+M3B -. creates .-> A4
+M3C -. creates .-> A5
+M4 -. creates .-> A6
+M7 -. creates .-> A7
+
+%% =========================================================
+%% HELD MATERIAL
+%% =========================================================
+
+Seed["Optional Submitted Scenario Seed<br/><br/>May be submitted in Module 1.<br/>Held until Stage 3B.<br/>Not framing input.<br/>Not context evidence.<br/>Not an accepted solution."]:::held
+
+Seed -. held until Stage 3B .-> M3B
+
+%% =========================================================
+%% GLOBAL GUARDRAILS
+%% =========================================================
+
+Guardrail["Input Boundary Rule<br/><br/>Each module may use only the records named in its module contract.<br/><br/>Display summaries, Board cards, matching artifacts, metadata, archive material, and scenario seeds are not analytical inputs unless explicitly promoted."]:::guardrail
+
+Guardrail -. governs all transformations .-> M2
+Guardrail -. governs all transformations .-> M3A
+Guardrail -. governs all transformations .-> M3B
+Guardrail -. governs all transformations .-> M4
+
+Public["Public Record Spine<br/><br/>Append-only event chain.<br/>Records important state changes across the pipeline.<br/>Issue public record is a filtered view of the global chain."]:::public
+
+M1 -. events .-> Public
+M3A -. events .-> Public
+M6 -. events .-> Public
+M7 -. decision recorded .-> Public
+M8 -. dispatch events .-> Public
+
+%% =========================================================
+%% CLICK TARGETS
+%% =========================================================
+
+click M1 "module1.html" "View Intake Details"
+click M2 "module2.html" "View Framing Details"
+click M3A "module3a.html" "View Context / Limitations / Readiness Details"
+click M3B "module3b.html" "View Scenario Pathway Ledger Details"
+click Cards "scenario-cards.html" "View Scenario Cards Details"
+click M3C "module3c.html" "View Decomposition Details"
+click M4 "module4.html" "View Constraints Details"
+click M5 "module5.html" "View Deliberation Details"
+click M6 "module6.html" "View Consensus Details"
+click M7 "module7.html" "View Decision Recording Details"
+click M8 "module8.html" "View Dispatch Details"
+click Public "public-record.html" "View Public Record"
