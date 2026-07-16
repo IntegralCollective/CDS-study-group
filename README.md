@@ -31,7 +31,9 @@ See the [contributing guide](https://github.com/IntegralCollective/CDS-study-gro
 
 This is where the actual work happens: [CDS modules](/docs/cds/index.md)
 
-- [Module 1](/docs/cds/module_1.md)
+Published modules:
+
+- [Module 1: Issue Capture & Signal Intake](/docs/cds/module_1.md)
 
 ## Miscelaneous
 
