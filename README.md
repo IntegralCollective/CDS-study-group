@@ -29,7 +29,9 @@ See the [contributing guide](https://github.com/IntegralCollective/CDS-study-gro
 
 ## Modules
 
-This is where the actual work happens: [CDS modules](https://github.com/IntegralCollective/CDS-study-group/blob/main/docs/cds/index.md)
+This is where the actual work happens: [CDS modules](/docs/cds/index.md)
+
+- [Module 1](/docs/cds/module_1.md)
 
 ## Miscelaneous
 
