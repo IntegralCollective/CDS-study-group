@@ -4,9 +4,17 @@
 
 The synthesized outcome of the deliberation pipeline.
 
+## Federation
+
+The architecture by which independent Integral [nodes](#node) connect, share designs, recognize labor contributions, coordinate production, and exchange diagnostic intelligence without requiring a central authority or shared infrastructure. Nodes are autonomous before, during, and after federation.
+
 ## Issue
 
 A decision to be resolved. It contains one or more [submissions](#submission).
+
+## Node
+
+The primary organizational unit of Integral. A cooperative community of any size that operates all five Integral systems in a real production and governance context. A node is autonomous: it makes its own decisions through CDS, maintains its own ledgers, and certifies its own designs. See [federation](#federation)
 
 ## Objection
 
