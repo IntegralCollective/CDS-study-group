@@ -26,3 +26,6 @@ Submissions are grouped together based on how similar they are to each other.
 A label is generated for each cluster based on the cluster's shared subject matter.
 
 ## Open Questions
+
+What is a frame?
+What is a sub-issue?
