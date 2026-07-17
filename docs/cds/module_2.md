@@ -28,4 +28,5 @@ A label is generated for each cluster based on the cluster's shared subject matt
 ## Open Questions
 
 What is a frame?
+
 What is a sub-issue?
