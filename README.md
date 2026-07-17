@@ -34,6 +34,7 @@ This is where the actual work happens: [CDS modules](/docs/cds/index.md)
 Published modules:
 
 - [Module 1: Issue Capture & Signal Intake](/docs/cds/module_1.md)
+- [Module 2: Issue Structuring & Framing](/docs/cds/module_2.md)
 
 ## Miscelaneous
 
