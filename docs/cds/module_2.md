@@ -2,7 +2,7 @@
 
 Module 1 outputs issues, which this module uses as input.
 Each issue's submissions are grouped based on what they are about.
-This organizes the key aspects of an issue for input into module 3.
+This structured issue view is used by module 3.
 
 ## Inputs
 
