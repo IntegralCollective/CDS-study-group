@@ -16,7 +16,7 @@ This is used as input for module 3.
 
 ## Functionality
 
-### Submissions Within Issue are Clustered
+### Clustering
 
 Submissions are grouped based on how similar their meaning is.
 For instance, if two submissions say:
