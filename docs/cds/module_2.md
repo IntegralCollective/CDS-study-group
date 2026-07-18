@@ -18,7 +18,15 @@ This is used as input for module 3.
 
 ### Submissions Within Issue are Clustered
 
-Submissions are grouped together based on how similar they are to each other.
+Submissions are grouped based on how similar their meaning is.
+For instance, if two submissions say:
+
+- "I'm worried that there is no seating here."
+- "Would be nice with somewhere to sit."
+
+They don't have a single word in common,
+but their meaning is the same.
+This means they would be clustered.
 
 ### Labeling
 
