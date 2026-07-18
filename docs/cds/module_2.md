@@ -12,7 +12,7 @@ This structured issue view is used by module 3.
 ## Outputs
 
 **Structured Issue View**  
-This is inputted into module 3.
+This is used as input for module 3.
 
 ## Functionality
 
