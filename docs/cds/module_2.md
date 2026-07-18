@@ -1,8 +1,7 @@
 # Module 2: Issue Structuring & Framing
 
 An issue is outputted from module 1 and inputted into module 2.
-Module 2 sorts the submissions within an issue
-into smaller groups of submissions based on subject matter.
+Each issue's submissions are grouped based on what they are about.
 This organizes the key aspects of an issue for input into module 3.
 
 ## Inputs
