@@ -20,7 +20,7 @@ This is used as input for module 3.
 
 Submissions are grouped together based on how similar they are to each other.
 
-### Submission Clusters are Labeled with a Theme
+### Labeling
 
 Each cluster gets labeled based on what the cluster is about.
 
