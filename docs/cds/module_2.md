@@ -22,7 +22,7 @@ Submissions are grouped together based on how similar they are to each other.
 
 ### Submission Clusters are Labeled with a Theme
 
-A label is generated for each cluster based on the cluster's shared subject matter.
+Each cluster gets labeled based on what the cluster is about.
 
 ## Open Questions
 
