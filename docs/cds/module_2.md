@@ -48,4 +48,8 @@ itself:
 Is 'frame' the same as `StructuredIssueView`? If so,
 why the interchangeable terms?
 
-What is a sub-issue?
+### What is a sub-issue?
+
+This word is used in the white paper
+but not in the pseudo code.
+Maybe it's the same thing as a "theme"?
