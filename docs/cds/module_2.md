@@ -1,1 +1,63 @@
 # Module 2: Issue Structuring & Framing
+
+Module 1 outputs issues, which this module uses as input.
+Each issue's submissions are grouped based on what they are about.
+This structured issue view is used by module 3.
+
+## Inputs
+
+**Issue**  
+(from module 1)
+
+## Outputs
+
+**Structured Issue View**  
+This is used as input for module 3.
+
+## Functionality
+
+### Clustering
+
+Submissions are grouped based on how similar their meaning is.
+For instance, if two submissions say:
+
+- "I'm worried that there is no seating here."
+- "Would be nice with somewhere to sit."
+
+They don't have a single word in common,
+but their meaning is the same.
+This means they would be clustered.
+
+### Labeling
+
+Each cluster gets labeled based on what the cluster is about.
+
+## Open Questions
+
+### What is a frame?
+
+Here's the description of
+the module from the
+[overview table](https://lukors.github.io/integral-whitepaper/whitepaper/07-modules/07-1-cds/cds-02-architecture-code.html):
+
+> Organize issues into coherent problem frames,
+> scopes, dependencies, and decision parameters
+
+And from the
+[module description](https://lukors.github.io/integral-whitepaper/whitepaper/07-modules/07-1-cds/modules/cds-module-02-issue-structuring.html)
+itself:
+
+> Convert raw, heterogeneous submissions—proposals,
+> objections, comments, and system signals—into
+> coherent issue frames consisting of clusters,
+> themes, sub-issues, and decision parameters
+> that later CDS modules can reason about.
+
+Is 'frame' the same as `StructuredIssueView`? If so,
+why the interchangeable terms?
+
+### What is a sub-issue?
+
+This word is used in the white paper
+but not in the pseudo code.
+Maybe it's the same thing as a "theme"?
