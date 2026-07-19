@@ -4,7 +4,7 @@
 
 ## Semantic Line Breaks
 
-We're aiming to use Semantic Line Breaks, which describe a set of conventions for using insensitive vertical whitespace to structure prose along semantic boundaries.
+We're aiming to use [Semantic Line Breaks](https://sembr.org/), which describe a set of conventions for using insensitive vertical whitespace to structure prose along semantic boundaries.
 
 ## Glossary
 
