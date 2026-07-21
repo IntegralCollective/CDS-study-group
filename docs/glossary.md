@@ -36,6 +36,10 @@ Any proposal, objection, evidence, comment, submitted by a [participant](#partic
 
 A structured communication protocol that distributes influence evenly, routes insight through designed rotation, and surfaces coherence that cannot be derived from argument trees or scoring algorithms.
 
+## Value
+
+A single piece of data.
+
 ## Vote
 
 Gradient preference signal. See also [objection](#objection).
