@@ -7,6 +7,8 @@
 Use [Semantic Line Breaks](https://sembr.org/).
 This makes it easier to collaborate on the text.
 
+A line should never be over 80 characters unless it has to.
+For instance long links can make it go above this limit.
 ## Glossary
 
 A term in the glossary should never be used to mean anything other than its meaning in the glossary. And if you're talking about something defined in the glossary, you should never use other words to describe it than the one in the glossary.
