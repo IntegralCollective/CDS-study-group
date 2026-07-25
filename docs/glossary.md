@@ -41,7 +41,6 @@ A structured communication protocol that distributes influence evenly, routes in
 A single piece of data of a known data type as referenced in the [Dev
 Guide](https://github.com/Integral-Collective/integral-devguide/blob/74652835df3536dc1093d5470dfac330a9038517/DEVGUIDE.md?plain=1#L1695-L1701) .
 
-
 ## Vote
 
 Gradient preference signal. See also [objection](#objection).
