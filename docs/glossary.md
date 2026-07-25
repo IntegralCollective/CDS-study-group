@@ -26,7 +26,7 @@ A person with identity, role context, and decision weight.
 
 ## Scenario
 
-A candidate solution path for an Issue, automatically generated between modules 3 and 4).
+A candidate solution for an [issue](#issue) [White Paper](https://github.com/Integral-Collective/integral-whitepaper/blob/4a006613630fb4d867f38dcfb1c0cb94cccce1bf/whitepaper/07-modules/07-1-cds/cds-02-architecture-code.md?plain=1#L155-L164).
 
 ## Submission
 
