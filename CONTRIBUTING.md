@@ -14,7 +14,7 @@ Thank you for your interest in the Integral CDS Study Group.
 You can contribute by:
 
 * Writing summaries of modules that don't have a summary yet
-* Improving pre-existing module summaries
+* Improving existing module summaries
 * Creating or refining Mermaid diagrams
 * Correcting errors
 * Asking questions
