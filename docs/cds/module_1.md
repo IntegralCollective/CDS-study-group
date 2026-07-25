@@ -1,8 +1,9 @@
 # Module 1: Issue Capture & Signal Intake
 
-All submissions that enter the CDS come in through this module.
-It stores the submissions in issues,
-which are inputted into module 2.
+All [submissions](../glossary.md#submission) that enter the CDS
+come in through this module.
+It stores the submissions in [issues](../glossary.md#issue),
+which become inputs for module 2.
 
 Submissions can be added by an agent,
 which can be a person or another Integral subsystem.
@@ -14,7 +15,7 @@ This is added by agents, for example:
 
 - From people:
   - Proposals.
-  - Objections.
+  - [Objections](../glossary.md#objection).
   - Comments.
 - From other Integral subsystems:
   - Weather data from the FRS.
@@ -31,8 +32,6 @@ These are used as inputs for module 2.
 ### Issues as Bundles of Submissions
 
 Each added submission is put in an issue.
-So, each issue that this module outputs contains at least one submission.
-Often, an issue outputted from module 1 will contain multiple submissions.
 
 ### Authentication
 
