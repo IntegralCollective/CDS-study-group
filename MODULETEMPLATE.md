@@ -1,4 +1,4 @@
-# Module Number: Module Name
+# Module X: Module Name
 
 Brief module summary
 
