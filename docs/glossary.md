@@ -35,6 +35,16 @@ References:
 
 Any proposal, objection, evidence, comment, submitted by a [participant](#participant) or incoming from a system signal. Submissions are part of an [issue](#issue).
 
+## Subsystem
+
+One of the five parts of Integral.
+
+- CDS: Collaborative Decision System
+- OAD: Open Access Design
+- ITC: Integral Time Credits
+- COS: Cooperative Organization System
+- FRS: Feedback & Review System
+
 ## Syntegrity
 
 A structured communication protocol that distributes influence evenly, routes insight through designed rotation, and surfaces coherence that cannot be derived from argument trees or scoring algorithms.
