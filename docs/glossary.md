@@ -26,7 +26,10 @@ A person with identity, role context, and decision weight.
 
 ## Scenario
 
-A possible solution for an [issue](#issue) as referenced in the [White Paper](https://github.com/Integral-Collective/integral-whitepaper/blob/4a006613630fb4d867f38dcfb1c0cb94cccce1bf/whitepaper/07-modules/07-1-cds/cds-02-architecture-code.md?plain=1#L155-L164).
+A possible solution for an [issue](#issue).
+
+References:
+[white paper](https://github.com/Integral-Collective/integral-whitepaper/blob/4a006613630fb4d867f38dcfb1c0cb94cccce1bf/whitepaper/07-modules/07-1-cds/cds-02-architecture-code.md?plain=1#L155-L164).
 
 ## Submission
 
