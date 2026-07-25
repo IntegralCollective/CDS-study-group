@@ -26,7 +26,7 @@ A person with identity, role context, and decision weight.
 
 ## Scenario
 
-A possible solution for an [issue](#issue) 
+A possible solution for an [issue](#issue) .
 
 References:
 
