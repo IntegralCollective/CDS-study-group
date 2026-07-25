@@ -2,7 +2,7 @@
 
 All submissions that enter the CDS come in through this module.
 It stores the submissions in issues,
-which are inputted into module 2.
+which become inputs for module 2.
 
 Submissions can be added by an agent,
 which can be a person or another Integral subsystem.
