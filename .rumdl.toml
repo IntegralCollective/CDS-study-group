@@ -1,69 +1,58 @@
-# rumdl configuration file
+# rumdl configuration file.
+#
+# rumdl is a Markdown linter.
+# A linter is a program
+# which checks if some code or text is following certain rules.
+# Since rumdl is a Markdown linter,
+# it checks if we're following certain rules in how we use Markdown.
+#
+# This is the configuration file for rumdl,
+# so here we can encode whatever rules we agree to follow
+# when writing Markdown.
+#
+# rumdl also comes with a set of default lints
+# which are not explicitly written out in this file.
+# Those can be disabled if we want.
+#
+# This file doesn't do anything on its own.
+# It only means something when running rumdl in this directory.
+#
+# Here you can learn more about rumdl:
+# https://rumdl.dev/
 
-# Inherit settings from another config file (relative to this file's directory)
-# extends = "../base.rumdl.toml"
-
-# Global configuration options
 [global]
-# List of rules to disable (uncomment and modify as needed)
-# disable = ["MD013", "MD033"]
-
-# List of rules to enable exclusively (replaces defaults; only these rules will run)
-# enable = ["MD001", "MD003", "MD004"]
 
 # Additional rules to enable on top of defaults (additive, does not replace)
 # Use this to activate opt-in rules like MD060, MD063, MD072, MD073, MD074
-# extend-enable = ["MD060", "MD063"]
+extend-enable = [
+    # Table Format: https://rumdl.dev/md060/
+    "MD060",
 
-# Additional rules to disable on top of the disable list (additive)
-# extend-disable = ["MD041"]
+    # Heading Capitalization: https://rumdl.dev/md063/
+    "MD063",
 
-# List of file/directory patterns to include for linting (if provided, only these will be linted)
-# include = [
-#    "docs/*.md",
-#    "src/**/*.md",
-#    "README.md"
-# ]
+    # Invisible Unicode characters: https://rumdl.dev/md084/
+    "MD084",
+]
 
-# List of file/directory patterns to exclude from linting
+# List of file/directory patterns to exclude from linting:
 exclude = [
-    # Common directories to exclude
     ".git",
-    ".github",
-    "node_modules",
-    "vendor",
-    "dist",
-    "build",
-
-    # Specific files or patterns
-    "CHANGELOG.md",
     "LICENSE.md",
 ]
 
-# Respect .gitignore files when scanning directories (default: true)
-respect-gitignore = true
+# Markdown flavor/dialect to use.
+# "gfm" is the GitHub flavor.
+flavor = "gfm"
 
-# Markdown flavor/dialect (uncomment to enable)
-# Options: standard (default), gfm, commonmark, mkdocs, mdx, pandoc, quarto, obsidian, kramdown, azure_devops, myst
-# flavor = "mkdocs"
+# Rule-specific configurations:
 
-# Rule-specific configurations (uncomment and modify as needed)
+# Keep lines short for better readability: https://rumdl.dev/md013/
+[MD013]
+line-length = 80
+reflow = true
+reflow-mode = "semantic-line-breaks"
 
-# [MD003]
-# style = "atx"  # Heading style (atx, atx_closed, setext)
-
-# [MD004]
-# style = "asterisk"  # Unordered list style (asterisk, plus, dash, consistent)
-
-# [MD007]
-# indent = 4  # Unordered list indentation
-
-# [MD013]
-# line-length = 100  # Line length
-# code-blocks = false  # Exclude code blocks from line length check
-# tables = false  # Exclude tables from line length check
-# headings = true  # Include headings in line length check
-
-# [MD044]
-# names = ["rumdl", "Markdown", "GitHub"]  # Proper names that should be capitalized correctly
-# code-blocks = false  # Check code blocks for proper names (default: false, skips code blocks)
+# Use Proper Capitalization for Names: https://rumdl.dev/md044/
+[MD044]
+names = ["rumdl", "Markdown", "GitHub", "Integral"]
