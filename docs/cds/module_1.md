@@ -31,8 +31,6 @@ These are used as inputs for module 2.
 ### Issues as Bundles of Submissions
 
 Each added submission is put in an issue.
-So, each issue that this module outputs contains at least one submission.
-Often, an issue outputted from module 1 will contain multiple submissions.
 
 ### Authentication
 
