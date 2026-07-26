@@ -37,7 +37,7 @@ Any proposal, objection, evidence, comment, submitted by a [participant](#partic
 
 ## Subsystem
 
-One of the five parts of Integral.
+One of the core five parts of Integral needed to form a [node](https://github.com/IntegralCollective/CDS-study-group/blob/main/docs/glossary.md#node).
 
 - CDS: Collaborative Decision System
 - OAD: Open Access Design
