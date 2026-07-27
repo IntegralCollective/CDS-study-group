@@ -1,42 +1,81 @@
 # Module 3: Knowledge Integration & Context Engine
-## Inputs
 
+Module 3 aggregates data from other modules, other subsystems, and external datasets 
+in order to determine the conditions that surround an issue 
+and potentially constrain enaction of an issue's scenarios.
+
+## Inputs
 **Structured Issue View**  
 from Module 2
 
-**Evidence Submission**
+**Evidence in Support of Scenarios**  
 from Module 1
 
-**Ecological Metrics and risks Signals**
+**Ecological Data**  
 from FRS
 
-**Capacity, Labor Windows, Resource Availability**
+**Resource Availability**  
 from COS
 
-**Fairness constraints and weighting context**
+**Labor Availability**  
+from COS
+
+**Fairness Constraints**  
 from ITC
 
 **Historical decision and rationale log**
 
+**Relevant External Datasets**
+
 
 ## Outputs
 **Context Model**
-with consolodated queryable indicators
-Context Score Vector**
 
-## Functionality 
+Organized packet of information containing: 
+resource requirements and resource availability, 
+labor requirements and labor availability, 
+ecological conditions, fairness considerations, historical precedent, 
+and evidence in support of scenarios.
 
-Make sense of the environmental, resource and labour capacity required to accomplish a project. 
+## Functionality  
 
-computes a Context Score Vector (Ecological, resource, labor, social/fariness indicators), that is used in Modules 4-6 to test proposals against
+**Evidence Indexing**  
+An organized catalog of evidence is created. 
 
-## New Additions/ Comments 
+**Context Extraction**  
+Ecological, resource, labor, and fairness inputs are pulled from the appropriate subsystem.
 
+**Historical Matching**  
+Similar previous cases are identified and matched to a current case.
 
+**Dependency Mapping**  
+Required resources external to node identified. 
+
+**Context Score Vector**  
+The Context Score Vector is a quantification of 
+ecological, resource, labor, and fairness conditions 
+identified in the Context Model.
+Modules 4-6 test proposals against this.
 
 ## Open Questions
-How is a codebase intented to automatically display and make meaning from any kind of ecological metric data? Any different ecological region/system would need different ways to display it, and its data would be in different forms. Are we assuming AI can display any data type? 
+How is a codebase intented to automatically display and make meaning from any kind of ecological metric data? 
+Any different ecological region/system would need different ways to display it, 
+and its data would be in different forms. 
+Are we assuming AI can display any data type? 
 
-How is the ecological data integrated with the resource availability, capacity/ labour data in a meaningful way? In order to search for the right resources/ gain insight on the labour specialization needed I imagine OAD would need to be involved.  
+How is the ecological data integrated with the resource availability, capacity/ labour data in a meaningful way? 
+In order to search for the right resources / gain insight on the labour specialization needed, 
+I imagine OAD would need to be involved.
 
-Is the Historical Data and rationale sourced from previous instances of this node, or from outside cases where these projects were done. 
+The OAD is said to be involved in module 3 on page 24 of the white paper,
+but it is left out of the pseduocode.
+Is this a mistake?
+
+Is the Historical Data and rationale sourced from previous instances of this node (perhaps from module 7?), 
+or from outside cases where these projects were done. 
+
+Shouldn't the context score vector be considered an output? 
+Or, is it technically part of the Context Model?
+Or, is it merely symbolic and not actually involved in a module? 
+
+What exactly does "dependency mapping" mean?
