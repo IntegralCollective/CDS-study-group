@@ -12,6 +12,9 @@ For instance long links can make it go above this limit.
 
 ## Glossary
 
+The purpose of the glossary is to make the module summaries easier to understand.
+Therefore, one should only add words to the glossary that already appear or will definitely appear in module summaries.
+
 A term in the glossary should never be used to mean anything other than its meaning in the glossary. And if you're talking about something defined in the glossary, you should never use other words to describe it than the one in the glossary.
 
 The first time a term from the glossary is mentioned on a page, it should link to the definition in the glossary. For example, from the `docs` folder, you can use a relative path:
