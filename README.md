@@ -36,6 +36,6 @@ Published modules:
 - [Module 1: Issue Capture & Signal Intake](/docs/cds/module_1.md)
 - [Module 2: Issue Structuring & Framing](/docs/cds/module_2.md)
 
-## Miscelaneous
+## Miscellaneous
 
 - [Glossary](docs/glossary.md)
