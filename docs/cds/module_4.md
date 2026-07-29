@@ -2,7 +2,7 @@
 
 Function: Test candidate scenarios against boundaries: ecological ceilings, resources, labor, fairness/accessibility, safety, node constitution, and federated rules.
 
-Inputs:
+## Inputs
 
 - ContextModel
 - StructuredIssueView
