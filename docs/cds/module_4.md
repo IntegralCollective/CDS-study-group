@@ -1,5 +1,4 @@
 # Module 4: Norms & Constraint Checking
-### Module 4 - Norms & Constraint Checking
 
 Function: Test candidate scenarios against boundaries: ecological ceilings, resources, labor, fairness/accessibility, safety, node constitution, and federated rules.
 
