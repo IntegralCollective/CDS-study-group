@@ -13,9 +13,11 @@ For instance long links can make it go above this limit.
 ## Glossary
 
 The purpose of the glossary is to make the module summaries easier to understand.
-Therefore, one should only add words to the glossary that already appear in module summaries, 
-will definitely appear in module summaries,
-or clarify the meaning of another word in the glossary.
+Therefore, a word should only be added to the glossary if it...
+
+- Appears in module summaries.
+- Will definitely appear in module summaries.
+- Clarifies the meaning of another word in the glossary.
 
 A term in the glossary should never be used to mean anything other than its meaning in the glossary. And if you're talking about something defined in the glossary, you should never use other words to describe it than the one in the glossary.
 
