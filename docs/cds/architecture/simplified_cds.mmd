@@ -1,0 +1,136 @@
+flowchart TB
+
+    %% =========================================================
+    %% MODULE 1 — INTAKE
+    %% =========================================================
+
+    subgraph M1["MODULE 1 — INTAKE"]
+        USERS["Users"]
+        PARTICIPANTS["Participants"]
+        SUBMISSIONS["Submissions"]
+        VALIDATION["Validation"]
+        SIGNALS["System Signals"]
+
+        USERS --> PARTICIPANTS
+        PARTICIPANTS --> SUBMISSIONS
+        SUBMISSIONS --> VALIDATION
+        SIGNALS --> SUBMISSIONS
+    end
+
+    %% =========================================================
+    %% MODULE 2 — ISSUE STRUCTURING
+    %% =========================================================
+
+    subgraph M2["MODULE 2 — ISSUE STRUCTURING"]
+        CLUSTERS["Submission Clusters"]
+        ISSUE["Decision Issue"]
+
+        SUBMISSIONS --> CLUSTERS
+        CLUSTERS --> ISSUE
+    end
+
+    %% =========================================================
+    %% MODULE 3 — CONTEXT INTEGRATION
+    %% =========================================================
+
+    subgraph M3["MODULE 3 — CONTEXT INTEGRATION"]
+        KNOWLEDGE["Knowledge"]
+        CONTEXT["Context Model"]
+
+        ISSUE --> CONTEXT
+        KNOWLEDGE --> CONTEXT
+    end
+
+    %% =========================================================
+    %% BRIDGE — SCENARIO GENERATION
+    %% =========================================================
+
+    SCENARIOS["Candidate Scenarios"]
+
+    CONTEXT --> SCENARIOS
+
+    %% =========================================================
+    %% MODULE 4 — CONSTRAINT ANALYSIS
+    %% =========================================================
+
+    subgraph M4["MODULE 4 — CONSTRAINT ANALYSIS"]
+        CONSTRAINTS["Constraints"]
+        CONSTRAINT_REPORT["Constraint Report"]
+
+        SCENARIOS --> CONSTRAINT_REPORT
+        CONSTRAINTS --> CONSTRAINT_REPORT
+    end
+
+    %% =========================================================
+    %% MODULE 5 — PARTICIPATORY DELIBERATION
+    %% =========================================================
+
+    subgraph M5["MODULE 5 — PARTICIPATORY DELIBERATION"]
+        DISCUSSIONS["Discussion Threads"]
+        MESSAGES["Discussion Messages"]
+        OBJECTIONS["Objections"]
+        FEEDBACK["Feedback"]
+        REVISION["Revisions"]
+
+        CONSTRAINT_REPORT --> DISCUSSIONS
+        DISCUSSIONS --> MESSAGES
+        MESSAGES --> OBJECTIONS
+        FEEDBACK --> DISCUSSIONS
+        OBJECTIONS --> REVISION
+        REVISION --> DISCUSSIONS
+    end
+
+    %% =========================================================
+    %% MODULE 6 — CONSENSUS EVALUATION
+    %% =========================================================
+
+    subgraph M6["MODULE 6 — CONSENSUS EVALUATION"]
+        CONSENSUS["Consensus"]
+        OUTCOME["Consensus Outcome"]
+
+        DISCUSSIONS --> CONSENSUS
+        OBJECTIONS --> CONSENSUS
+        CONSENSUS --> OUTCOME
+    end
+
+    %% =========================================================
+    %% MODULE 7 — DECISION
+    %% =========================================================
+
+    subgraph M7["MODULE 7 — DECISION"]
+        DECISION["Decision"]
+        DECISION_REVISION["Decision Revision"]
+
+        OUTCOME --> DECISION
+        DECISION --> DECISION_REVISION
+        DECISION_REVISION --> DECISION
+    end
+
+    %% =========================================================
+    %% MODULE 8 — DISPATCH
+    %% =========================================================
+
+    subgraph M8["MODULE 8 — DISPATCH"]
+        DISPATCH["Decision Dispatch"]
+
+        DECISION --> DISPATCH
+    end
+
+    %% =========================================================
+    %% MODULE 9 — ESCALATION / SYNTEGRITY
+    %% =========================================================
+
+    subgraph M9["MODULE 9 — ESCALATION / SYNTEGRITY"]
+        ESCALATION["Escalated Issue"]
+        SYNTEGRITY["Syntegrity / Higher-Level Deliberation"]
+
+        CONSENSUS --> ESCALATION
+        ESCALATION --> SYNTEGRITY
+        SYNTEGRITY --> ISSUE
+    end
+
+    %% =========================================================
+    %% FEEDBACK LOOP
+    %% =========================================================
+
+    DISPATCH --> SIGNALS
