@@ -13,7 +13,7 @@ For instance long links can make it go above this limit.
 ## Glossary
 
 The purpose of the glossary is to make the module summaries easier to understand.
-Therefore, a word should only be added to the glossary if it...
+Therefore, only add a word if it does one of the following:
 
 - Appears in module summaries.
 - Clarifies the meaning of another word in the glossary.
