@@ -30,6 +30,10 @@ All contributions are welcome—not just code.
 * Be open to feedback.
 * Significant changes should be discussed first through an Issue or Discussion.
 
+## GitHub Issues
+
+* GitHub issues can be used to raise questions or float potential changes not quite ready for a pull request
+
 ## Governance
 
 This repository is community-governed.
