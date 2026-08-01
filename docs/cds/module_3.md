@@ -17,15 +17,15 @@ from FRS
 **Resource Availability**  
 from COS
 
-**Labor Availability**  
+**Labor Capacity**  
 from COS
 
 **Fairness Constraints**  
 from ITC
 
-**Historical decision and rationale log**
+**Historical Precedent**
 
-**Relevant External Datasets**
+**Relevant External Data**
 
 
 ## Outputs
@@ -33,7 +33,7 @@ from ITC
 
 Organized packet of information containing: 
 resource requirements and resource availability, 
-labor requirements and labor availability, 
+labor requirements and labor capacity, 
 ecological conditions, fairness considerations, historical precedent, 
 and evidence in support of scenarios.
 
