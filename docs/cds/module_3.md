@@ -35,7 +35,7 @@ Organized packet of information containing:
 resource requirements and resource availability, 
 labor requirements and labor capacity, 
 ecological conditions, fairness considerations, historical precedent, 
-and evidence in support of scenarios.
+evidence in support of scenarios, and context score vector.
 
 ## Functionality  
 
@@ -58,7 +58,7 @@ identified in the Context Model.
 Modules 4-6 test proposals against this.
 
 ## Open Questions
-How is a codebase intented to automatically display and make meaning from any kind of ecological metric data? 
+How is a codebase intended to automatically display and make meaning from any kind of ecological metric data? 
 Any different ecological region/system would need different ways to display it, 
 and its data would be in different forms. 
 Are we assuming AI can display any data type? 
