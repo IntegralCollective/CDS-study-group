@@ -1,53 +1,50 @@
 # Module 4: Norms & Constraint Checking
 
-Function: Test candidate scenarios against boundaries: ecological ceilings, resources, labor, fairness/accessibility, safety, node constitution, and federated rules.
-
 ## Inputs
 
 - ContextModel
 - StructuredIssueView
-- candidate Scenario 
+- candidate Scenario
 - formal rules from FRS, COS, ITC, CDS policy, OAD standards
 
-Outputs:
+## Outputs:
 
 - ConstraintReport
 - pass/fail by constraint domain
 - required modifications
 - feasible/revisable scenario set
-- issue status: constrained
 
-Handoff: Module 4 passes feasible or revisable scenarios to Module 5. If all fail, it sends issue? back to bridge step “scenario generation” or Module 2 or?
+## Functionality: 
 
-Strengths:
+Test candidate scenarios against boundaries: ecological ceilings, resources, labor, fairness/accessibility, safety, node constitution, and federated rules.
 
-- Makes constraints explicit rather than political.
+Handoff: Module 4 passes feasible or revisable scenarios to Module 5.
+
+## New Additions/ Comments
+
+Strenghts:
+
 - Returns modification requirements instead of silent rejection.
-- Correctly treats CDS as normative authority while other systems provide constraints.
-- Strong candidate for rule-engine implementation later.
-
-Failure modes:
-
-- Constraint rules may be incomplete, outdated, or illegitimate.
-- Quantifiable constraints may dominate non-quantifiable social values.
-- Module 4 depends on candidate scenarios, but scenario generation is not fully specified in the module sequence.
-
-Critique:
-
-- Logic problem: Module 4 requires candidate scenarios, but Modules 1-3 do not necessarily produce scenarios. The orchestration file names a generate_candidate_scenarios(...) bridge, but this is not a formal module.
-- Governance/legitimacy issue: constraint rule ownership must be explicit.
+- Correctly treats CDS as normative authority while other systems provide reasons for constraints.
 
 Minimum viable version:
-
-Use a mandatory facilitator checklist:
+Shadow version placeholder/ Possible facilitator checklist
 
 - ecological red flags
 - material availability
 - labor capacity
 - accessibility/fairness
 - safety/legal/constitutional constraints
-- OAD certification/design dependency
+- certification/design dependency
 - FRS monitoring requirement
-- "unknown but important" fields
+- Other important fields
 
-Build-readiness: Needs clarification for full system; MVB checklist is build-ready.
+## Open questions: 
+
+- If no scenario is passed on to Module 5, what signal is sent where? 
+e.g. it sends issue back to bridge step “scenario generation” or Module 2 or ... ?
+- Constraint rules may be incomplete, outdated, or illegitimate. How is this managed?
+- Quantifiable constraints may dominate non-quantifiable social values. How is ensured that social values are not cut off?
+- Module 4 depends on candidate scenarios, but scenario generation is not fully specified in the module sequence.
+- What process comes up with constraint rule?
+- What is the distinction between the "formal" rules/constraints and the context model from module 3? Both are inputs for module 4, but they almost seem redundant. In my mind, the context model is a data packet of conditions, which are, in effect, constraints. Maybe they function as two separate layers of constraints? (samw)
