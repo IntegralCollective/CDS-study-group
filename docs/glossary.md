@@ -1,5 +1,9 @@
 # Glossary
 
+**Please see the
+[glossary guidelines](https://github.com/IntegralCollective/CDS-study-group/blob/main/STYLEGUIDE.md#glossary)
+before editing or referencing the glossary.**
+
 ## Decision
 
 The synthesized outcome of the deliberation pipeline.
