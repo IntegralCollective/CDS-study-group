@@ -53,26 +53,40 @@ Modules 4-6 test proposals against this.
 
 ## Open Questions
 
+### How to Display Data?
+
 How is a codebase intended to automatically display and make meaning from any kind of ecological metric data?
 Any different ecological region/system would need different ways to display it,
 and its data would be in different forms.
 Are we assuming AI can display any data type?
 
+### How is Data Integrated?
+
 How is the ecological data integrated with the resource availability, capacity/ labour data in a meaningful way?
 In order to search for the right resources / gain insight on the labour specialization needed,
 I imagine OAD would need to be involved.
+
+### Why is the OAD Missing From the Pseudocode?
 
 The OAD is said to be involved in module 3 on page 24 of the white paper,
 but it is left out of the pseduocode.
 Is this a mistake?
 
+### Where Does Historical Data Come From?
+
 Is the Historical Data and rationale sourced from previous instances of this node (perhaps from module 7?),
 or from outside cases where these projects were done.
+
+### Why Isn't the Context Score Vector an Output?
 
 Shouldn't the context score vector be considered an output?
 Or, is it technically part of the Context Model?
 Or, is it merely symbolic and not actually involved in a module?
 
+### What is "Dependency Mapping"?
+
 What exactly does "dependency mapping" mean?
+
+### How to Manage Too Much Content?
 
 How is content overload prevented/ managed?
