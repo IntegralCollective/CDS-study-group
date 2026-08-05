@@ -12,21 +12,14 @@ from Module 2
 **Evidence in Support of Scenarios**\
 from Module 1
 
-**Ecological Data**\
-from FRS
+**Other Relevant Data**\
+For example:
 
-**Resource Availability**\
-from COS
-
-**Labor Capacity**\
-from COS
-
-**Fairness Constraints**\
-from ITC
-
-**Historical Precedent**
-
-**Relevant External Data**
+- Ecological data from the FRS.
+- Resource availability from the COS.
+- Labor Capacity from the COS.
+- Fairness constraints from the ITC.
+- Historical precedent.
 
 ## Outputs
 
