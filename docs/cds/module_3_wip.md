@@ -25,10 +25,11 @@ For example:
 
 **Context Model**\
 Organized packet of information containing:
-resource requirements and resource availability,
-labor requirements and labor capacity,
-ecological conditions, fairness considerations, historical precedent,
-evidence in support of scenarios, and context score vector.
+
+- Resource requirements and resource availability.
+- Labor requirements and labor capacity.
+- Ecological conditions, fairness considerations, historical precedent.
+- Evidence in support of scenarios, and context score vector.
 
 ## Functionality
 
