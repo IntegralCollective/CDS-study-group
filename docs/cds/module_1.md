@@ -27,7 +27,7 @@ This is added by agents, for example:
 **Issue**  
 These are used as inputs for module 2.
 
-## Functionality
+## Functions
 
 ### Issues as Bundles of Submissions
 
