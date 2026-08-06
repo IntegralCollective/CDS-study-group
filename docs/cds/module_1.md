@@ -47,7 +47,7 @@ the submission is not stored.
 Instead, a counter is increased.
 This reduces the number of submissions that need to be handled.
 
-## Open Questions
+## Comments and Open Questions
 
 ### Where do Issues Come From?
 
