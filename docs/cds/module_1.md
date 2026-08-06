@@ -22,12 +22,7 @@ This is added by agents, for example:
   - Current value of different types of labor from the ITC.
   - Available resources from the COS.
 
-## Outputs
-
-**Issue**  
-These are used as inputs for module 2.
-
-## Functionality
+## Functions
 
 ### Issues as Bundles of Submissions
 
@@ -47,7 +42,12 @@ the submission is not stored.
 Instead, a counter is increased.
 This reduces the number of submissions that need to be handled.
 
-## Open Questions
+## Outputs
+
+**Issue**  
+These are used as inputs for module 2.
+
+## Comments and Open Questions
 
 ### Where do Issues Come From?
 
