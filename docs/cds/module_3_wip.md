@@ -26,7 +26,8 @@ For example:
 Information packet containing:
 
 - Resource requirements and resource availability.
-- Labor requirements and labor capacity.
+- How much labor is available, when it is available,
+  and what skills are required.
 - Ecological conditions, fairness considerations, historical precedent.
 - Evidence submissions.
 - Context score vector.
