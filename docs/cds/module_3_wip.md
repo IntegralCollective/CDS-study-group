@@ -1,15 +1,14 @@
 # Module 3: Knowledge Integration & Context Engine
 
-Module 3 aggregates data from other modules, other subsystems, and external datasets
-in order to determine the conditions that surround an issue
-and potentially constrain enaction of an issue's scenarios.
+Module 3 gathers all data that affects an issue,
+so later modules have the data they need.
 
 ## Inputs
 
 **Structured Issue View**\
 from Module 2
 
-**Evidence in Support of Scenarios**\
+**Evidence Submissions**\
 from Module 1
 
 **Other Relevant Data**\
@@ -19,17 +18,18 @@ For example:
 - Resource availability from the COS.
 - Labor Capacity from the COS.
 - Fairness constraints from the ITC.
-- Historical precedent.
+- Historical decisions.
 
 ## Outputs
 
 **Context Model**\
-Organized packet of information containing:
+Information packet containing:
 
 - Resource requirements and resource availability.
 - Labor requirements and labor capacity.
 - Ecological conditions, fairness considerations, historical precedent.
-- Evidence in support of scenarios, and context score vector.
+- Evidence submissions.
+- Context score vector.
 
 ## Functionality
 
