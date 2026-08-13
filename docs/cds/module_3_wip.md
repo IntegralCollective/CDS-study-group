@@ -19,7 +19,8 @@ For example:
 - Labor Capacity from the COS.
 - Fairness constraints from the ITC.
 - Historical decisions.
-
+- Climate data such as amount of rainfall, temperature ranges, and so on.
+- A map of the area.
 ## Outputs
 
 **Context Model**\
