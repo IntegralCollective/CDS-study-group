@@ -28,7 +28,7 @@ This is added by agents, for example:
 **Issue**  
 These are used as inputs for module 2.
 
-**Evidence** 
+**Evidence**  
 Evidence is technically contained within an issue.
 However, it should be noted that evidence is not processed by module 2.
 Evidence is used as an input for module 3.
