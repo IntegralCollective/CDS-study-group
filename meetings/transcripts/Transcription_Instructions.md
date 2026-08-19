@@ -30,15 +30,16 @@ Do this only for the first time each speaker speaks.
 
 5. Download the file.
 6. Copy and paste the following text to the top of the file:
-```markdown
-# Weekly Meeting 12 Transcript
 
-2026-08-16
+   ```markdown
+   # Weekly Meeting 12 Transcript
 
-Note: This transcript was created by an LLM (large language model).
-It has transcribed wrong in some places,
-and sometimes says the wrong person said things.
-```
+   2026-08-16
+
+   Note: This transcript was created by an LLM (large language model).
+   It has transcribed wrong in some places,
+   and sometimes says the wrong person said things.
+   ```
 7. Change the date and meeting number
 8. Upload file to: 
 https://github.com/IntegralCollective/CDS-study-group/tree/main/meetings/transcripts
