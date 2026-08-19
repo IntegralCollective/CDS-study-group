@@ -7,24 +7,26 @@ https://noscribe.de/en/)
 Do this only for the first time each speaker speaks.
 3. Use find - replace all for each speaker name to fill in the remaining “speaker x” labels
 4. Copy and paste the entire transcript into Chat GPT 5.6 Sol (effort: high). 
-Give Chat GPT the following instruction:
+   Give Chat GPT the following instruction:
+   
+   ````markdown
+   Convert this attached file into a markdown file. 
+   Format said attached file in the following way:  
 
-Convert this attached file into a markdown file. 
-Format said attached file in the following way:  
+   ```markdown
+   **John:**\
+   This is the first speaker’s text.
 
-```markdown
- **John:**\ 
-This is the first speaker’s text. 
+   **Joe:**\
+   This is the second speaker’s text. 
+   ```
 
- **Joe:**\ 
-This is the second speaker’s text. 
-```
-\
-Notice the name is bold, 
-the speech is on the next line after the name, 
-and there is a space between one speaker’s speech and the name of the next speaker. 
-Also, semantic line breaks should be used for the speech. 
-Moreover, don't change any of the actual transcription.
+   Notice the name is bold, 
+   the speech is on the next line after the name, 
+   and there is a space between one speaker’s speech and the name of the next speaker. 
+   Also, semantic line breaks should be used for the speech. 
+   Moreover, don't change any of the actual transcription.
+   ````
 
 5. Download the file.
 6. Copy and paste the following text to the top of the file:
