@@ -15,7 +15,7 @@ Module 5 is where the community actually thinks.
 ## Inputs
 
 - *StructuredIssueView* (from Module 2)
-- ContextModel* (from Module 3)
+- *ContextModel* (from Module 3)
 - *ConstraintReport* (from Module 4)
 - *Submissions* and *revisions* from *participants*
 - Optional *mediation signals* (e.g., from facilitators or *CDS norms engine*)
@@ -56,7 +56,7 @@ This module ensures that disagreement becomes productive rather than adversarial
 - Note:  Module 5 does not decide. It outputs a clean, consensus-ready deliberation state for Module 6.
 - [WP.47]
 - The *gradient preference signal* is implied in the pseudo-code among the "Core CDS enums / literals" defined
-- for *Supportlevel* [WP.31] and the "foudational entity" defined as *Vote* [WP.33].
+- for *Supportlevel* [WP.31] and the "foundational entity" defined as *Vote* [WP.33].
 - The *Signal* is likely an integrating deliberative process that spans multiple CDS Modules.
 - The implication is that the CDS Mudule 5 process is not a "secret-star-chamber" process but instead a truly
 - open grassroots democratic process that may at times engage the entire node community.
