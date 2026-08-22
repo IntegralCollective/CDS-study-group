@@ -27,7 +27,7 @@ This is added by agents, for example:
 **Issue**  
 These are used as inputs for module 2.
 
-## Functionality
+## Process
 
 ### Issues as Bundles of Submissions
 
@@ -47,8 +47,10 @@ the submission is not stored.
 Instead, a counter is increased.
 This reduces the number of submissions that need to be handled.
 
-## Open Questions
+## Questions
 
 ### Where do Issues Come From?
 
 We have been unable to find where issues are created.
+
+## Comments
