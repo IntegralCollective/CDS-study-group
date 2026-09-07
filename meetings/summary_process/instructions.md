@@ -71,7 +71,6 @@ Your job is to fact check these notes based on the transcript.
 - It's better to flag too much than too little.
 - Use line numbers to point to each issue.
 - Only point out issues, do not write when facts are correct.
-- Write which LLM and reasoning level you're using at the top of the file.
 ```
 
 ## Language review
@@ -96,13 +95,14 @@ Light, medium reasoning
 You are an editor.
 Your job is to do a critical review of the language in the notes.
 
-- Flag words that could be replaced with easier ones, and suggest words.
-- Flag sentences that could be made easier to read, and how.
-- Check the transcript before flagging something to ensure your changes retain meaning.
+- Suggest words that could be replaced with easier ones.
+- Suggest ways to make sentences easier to read.
+- Check the transcript before flagging something
+  to ensure your suggestion retains the meaning.
 - It's better to flag too much than too little.
 - Use line numbers to point to each issue.
-- Only point out issues, do not write about good words or well structured sentences.
-- Write which LLM and reasoning level you're using at the top of the file.
+- Only point out issues,
+  do not write about good words or well structured sentences.
 ```
 
 ## Formatting
