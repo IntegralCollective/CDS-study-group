@@ -1,0 +1,58 @@
+# rumdl configuration file.
+#
+# rumdl is a Markdown linter.
+# A linter is a program
+# which checks if some code or text is following certain rules.
+# Since rumdl is a Markdown linter,
+# it checks if we're following certain rules in how we use Markdown.
+#
+# This is the configuration file for rumdl,
+# so here we can encode whatever rules we agree to follow
+# when writing Markdown.
+#
+# rumdl also comes with a set of default lints
+# which are not explicitly written out in this file.
+# Those can be disabled if we want.
+#
+# This file doesn't do anything on its own.
+# It only means something when running rumdl in this directory.
+#
+# Here you can learn more about rumdl:
+# https://rumdl.dev/
+
+[global]
+
+# Additional rules to enable on top of defaults (additive, does not replace)
+# Use this to activate opt-in rules like MD060, MD063, MD072, MD073, MD074
+extend-enable = [
+    # Table Format: https://rumdl.dev/md060/
+    "MD060",
+
+    # Heading Capitalization: https://rumdl.dev/md063/
+    "MD063",
+
+    # Invisible Unicode characters: https://rumdl.dev/md084/
+    "MD084",
+]
+
+# List of file/directory patterns to exclude from linting:
+exclude = [
+    ".git",
+    "LICENSE.md",
+]
+
+# Markdown flavor/dialect to use.
+# "gfm" is the GitHub flavor.
+flavor = "gfm"
+
+# Rule-specific configurations:
+
+# Keep lines short for better readability: https://rumdl.dev/md013/
+[MD013]
+line-length = 80
+reflow = true
+reflow-mode = "semantic-line-breaks"
+
+# Use Proper Capitalization for Names: https://rumdl.dev/md044/
+[MD044]
+names = ["rumdl", "Markdown", "GitHub", "Integral"]
