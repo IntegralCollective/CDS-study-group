@@ -33,6 +33,9 @@ extend-enable = [
 
     # Invisible Unicode characters: https://rumdl.dev/md084/
     "MD084",
+
+    # Headings should not contain inline formatting: https://rumdl.dev/md093/
+    "MD093",
 ]
 
 # List of file/directory patterns to exclude from linting:
