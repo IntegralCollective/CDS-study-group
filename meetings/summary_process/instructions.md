@@ -2,7 +2,6 @@
 
 Write a short summary of the most important outcomes of a meeting transcript.
 
-- Maintain a checklist when working through this.
 - The target audience is people who attended the meeting,
   and those who missed it.
 - Focus on where each each discussion was left,
@@ -24,6 +23,10 @@ Write a short summary of the most important outcomes of a meeting transcript.
   when writing the first iteration of the notes.
   They are a safety guard,
   the goal is that they shouldn't have anything to bring up.
+- If someone presents something,
+  summarize what was presented.
+- If there was a Q&A after the presentation,
+  summarize each question and their answers.
 
 AFTER you have applied the feedback from the sub-agents,
 if the file is above 2k characters,
@@ -45,19 +48,19 @@ Use a counter at the top of each message, like this:
 - Run language review
 - Split into messages
 
-## Fact checker
+## Fact Checker
 
-### Output file
+### Output File
 
 fact-check.md
 
-### File access
+### File Access
 
 - Transcript
 - Agenda (if available)
 - WIP notes
 
-### Model weight
+### Model Weight
 
 Medium, medium reasoning
 
@@ -73,19 +76,19 @@ Your job is to fact check these notes based on the transcript.
 - Only point out issues, do not write when facts are correct.
 ```
 
-## Language review
+## Language Review
 
-### Output file
+### Output File
 
 language-review.md
 
-### File access**
+### File Access**
 
 - Transcript
 - Agenda (if available)
 - WIP notes
 
-### Model weight
+### Model Weight
 
 Light, medium reasoning
 
@@ -95,10 +98,10 @@ Light, medium reasoning
 You are an editor.
 Your job is to do a critical review of the language in the notes.
 
-- Suggest words that could be replaced with easier ones.
-- Suggest ways to make sentences easier to read.
-- Check the transcript before flagging something
-  to ensure your suggestion retains the meaning.
+- Find words that could be replaced with easier ones.
+- Find ways to make sentences easier to read.
+- Always include a suggested change.
+- Check the transcript to ensure your suggestion retains the meaning.
 - It's better to flag too much than too little.
 - Use line numbers to point to each issue.
 - Only point out issues,
@@ -111,4 +114,12 @@ Your job is to do a critical review of the language in the notes.
 - Use `#` for the title,
   `##` for major sections,
   and `###` for sub-sections if needed.
+- Title the message with # Summary
 - Do not have an empty line before or after headings.
+- Format questions and answers like this:
+
+  ```md
+
+  **Question**
+  Answer
+  ```
